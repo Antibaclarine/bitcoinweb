@@ -1,0 +1,728 @@
+body{
+    background-image: url(/image/background-black.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+#home{
+    color: white;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.Home a:hover,
+.Home a:active{
+    color: green;
+}
+.cont{
+    color: antiquewhite;
+}
+.wall{
+    height: 10vh;
+    border: solid  green;
+    border-radius: 20px;
+}
+.logo1{
+    width: 5%;
+    
+}
+.Home{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#A{
+    font-size: 2vw;
+}
+.image1{
+    width: 50%;
+    height: 80vh;
+}
+.trusted{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.porcotime{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   background-color: greenyellow;
+   color: black;
+   height: 10vh;
+   position: relative;
+   top: 25px;
+
+}
+.buy1{
+    border: solid;
+    width: 50%;
+    border-radius: 20px;
+    background-color:rgb(210, 88, 108);
+    
+    
+}
+.buy2{
+    border: solid ;
+    border-color: greenyellow;
+    width: 45%;
+    border-radius: 20px;
+    /* border-color: white; */
+
+}
+.box{
+    background-color: transparent;
+}
+.buy{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.last{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#image3{
+    width: 10%;
+}
+.second{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.third{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.fourth{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.fifth{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sixth{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.seventh{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.eight{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.pay{
+    
+    
+}
+.payment{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    width: 40%;
+    height: 35vh;
+    border-radius: 20px;
+}
+.best{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    width: 40%;
+    height: 35vh;
+    margin-top: 2%;
+    border-radius: 20px;
+    
+}
+.vault{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    
+    width: 65%;
+    height: 40vh;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+.get{
+    border-radius: 20px;
+    background-color: greenyellow;
+    width: 30%;
+    height: 8vh;
+}
+.phone{
+    width: 50%;
+}
+.your{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.h4{
+    font-size: 2.5vw;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.countries{
+   
+    /* background-image: url(/image/world.webp); */
+/* width: 50%; */
+/* height: 100vh; */
+}
+.millions{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.million{
+    margin-left: 30%;
+    border: solid;
+    width: 20%;
+}
+.country{
+    border: solid;
+    width: 20%;
+}
+.pair{
+    border: solid;
+    width: 20%;
+}
+.and{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Invented1{
+    background-color: cadetblue;
+    border: solid 0.1px;
+    margin-top: 30%;
+    width: 60%;
+    height: 50vh;
+    border-radius: 20px;
+}
+.Invented2{
+    background-color: hotpink;
+    border: solid 0.1px;
+    margin-bottom: 60%;
+    width: 60%;
+    height: 50vh;
+    border-radius: 20px;
+}
+.allvault{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 80vh;
+}
+.vaults{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* margin-right: 150%; */
+}
+.ready{
+    border: solid 0.1px;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+    height: 30vh;
+    margin-top: 5%;
+}
+.tick{
+    width: 10%;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+    .nav{
+        display: grid;
+        grid-template-columns: 1,1fr;
+    }
+    .logo1{
+        width: 25%;
+}
+.Home{
+    font-size: 3vw;
+    position: relative;
+    right: 55px;
+}
+
+
+body{
+    background-image: url(/image/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+#home{
+    color: white;
+}
+
+.cont{
+    color: antiquewhite;
+}
+.wall{
+    width: 20%;
+    height: 3vh;
+    font-size: 2vw;
+    border: solid  green;
+    border-radius: 20px;
+}
+
+#A{
+    font-size: 4vw;
+}
+.swap{
+    font-size: 2.5vw;
+}
+.image1{
+    width: 50%;
+    height: 20vh;
+}
+.trusted{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.porcotime{
+    max-width: 80%;
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   
+}
+.buy1{
+    border: solid;
+    width: 80%;
+    height: 3vh;
+    border-radius: 20px;
+    background-color:rgb(210, 88, 108);
+    
+}
+.buy2{
+    border: solid;
+    width: 80%;
+    height: 3vh;
+    border-radius: 20px;
+    border-color: white;
+
+}
+.box{
+    background-color: transparent;
+}
+.buy{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.last{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#image3{
+    width: 10%;
+}
+.second{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.third{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.fourth{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.fifth{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sixth{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.seventh{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.eight{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.pay{
+    
+    
+}
+.payment{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    width: 50%;
+    height: 30vh;
+    border-radius: 20px;
+}
+.best{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    width: 50%;
+    height: 25vh;
+    margin-top: 2%;
+    border-radius: 20px;
+    
+}
+.vault{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    
+    width: 90%;
+    height: 33vh;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    font-size: 2vh;
+}
+.phone{
+    width: 80%;
+    height: 25vh;
+}
+.your{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.h4{
+    font-size: 4vw;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 90%;
+    position: relative;
+    top: 25px;
+}
+.countries{
+   
+    /* background-image: url(/image/world.webp); */
+/* width: 50%; */
+/* height: 100vh; */
+}
+.millions{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.million{
+    margin-left: 50%;
+    border: solid;
+    width: 40%;
+    
+}
+.country{
+    border: solid;
+    width: 40%;
+}
+.pair{
+    border: solid;
+    width: 40%;
+}
+.and{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Invented1{
+    background-color: cadetblue;
+    border: solid 0.1px;
+    margin-top: 30%;
+    width: 60%;
+    height: 20vh;
+    border-radius: 20px;
+}
+.Invented2{
+    background-color: hotpink;
+    border: solid 0.1px;
+    margin-bottom: 60%;
+    width: 60%;
+    height: 20vh;
+    border-radius: 20px;
+}
+.allvault{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 80vh;
+    max-width: 100%;
+}
+.vaults{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 100%;
+    /* margin-right: 150%; */
+}
+.ready{
+    border: solid 0.1px;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+    height: 10vh;
+    margin-top: 5%;
+    font-size: 3vw;
+}
+.logo2{
+    width: 20%;
+}}
+@media screen and(max-width:1280px){
+    .nav{
+        display: grid;
+        grid-template-columns: 1,1fr;
+    }
+    .logo1{
+        width: 25%;
+}
+.Home{
+    font-size: 3vw;
+    position: relative;
+    right: 55px;
+}
+
+body{
+    background-image: url(/image/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+#home{
+    color: white;
+}
+
+.cont{
+    color: antiquewhite;
+}
+.wall{
+    width: 20%;
+    height: 3vh;
+    font-size: 2vw;
+    border: solid  green;
+    border-radius: 20px;
+}
+
+#A{
+    font-size: 4vw;
+}
+.swap{
+    font-size: 2.5vw;
+}
+.image1{
+    width: 50%;
+    height: 20vh;
+}
+.trusted{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.porcotime{
+    max-width: 80%;
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   
+}
+.buy1{
+    border: solid;
+    width: 80%;
+    height: 3vh;
+    border-radius: 20px;
+    background-color:rgb(210, 88, 108);
+    
+}
+.buy2{
+    border: solid;
+    width: 80%;
+    height: 3vh;
+    border-radius: 20px;
+    border-color: white;
+
+}
+.box{
+    background-color: transparent;
+}
+.buy{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.last{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#image3{
+    width: 10%;
+}
+.second{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.third{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.fourth{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.fifth{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sixth{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.seventh{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.eight{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.pay{
+    
+    
+}
+.payment{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    width: 50%;
+    height: 30vh;
+    border-radius: 20px;
+}
+.best{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    width: 50%;
+    height: 25vh;
+    margin-top: 2%;
+    border-radius: 20px;
+    
+}
+.vault{
+    background: transparent;
+    border: rgb(165, 42, 128) solid;
+    
+    width: 90%;
+    height: 33vh;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    font-size: 2vh;
+}
+.phone{
+    width: 80%;
+    height: 25vh;
+}
+.your{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.h4{
+    font-size: 4vw;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 90%;
+    position: relative;
+    top: 25px;
+}
+.countries{
+   
+    /* background-image: url(/image/world.webp); */
+/* width: 50%; */
+/* height: 100vh; */
+}
+.millions{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.million{
+    margin-left: 50%;
+    border: solid;
+    width: 40%;
+    
+}
+.country{
+    border: solid;
+    width: 40%;
+}
+.pair{
+    border: solid;
+    width: 40%;
+}
+.and{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Invented1{
+    background-color: cadetblue;
+    border: solid 0.1px;
+    margin-top: 30%;
+    width: 60%;
+    height: 20vh;
+    border-radius: 20px;
+}
+.Invented2{
+    background-color: hotpink;
+    border: solid 0.1px;
+    margin-bottom: 60%;
+    width: 60%;
+    height: 20vh;
+    border-radius: 20px;
+}
+.allvault{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 80vh;
+    max-width: 100%;
+}
+.vaults{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 100%;
+    /* margin-right: 150%; */
+}
+.ready{
+    border: solid 0.1px;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+    height: 10vh;
+    margin-top: 5%;
+    font-size: 3vw;
+}
+.logo2{
+    width: 20%;
+}
+}
+
+@media screen and (max-width: 768px) and (min-width: 1500px){
+    .logo1{
+        width: 25%;
+    }
+}
+    
+
+
+
