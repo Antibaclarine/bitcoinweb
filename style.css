@@ -3,8 +3,13 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
     
+}
+.graph{
+    width: 25%;
 }
 #home{
     color: white;
@@ -16,7 +21,13 @@ body{
 }
 .Home a:hover,
 .Home a:active{
-    color: green;
+    color: rgb(100, 212, 100);
+}
+.se{
+    color:rgb(76, 235, 76);
+}
+.cry{
+    color: aliceblue;
 }
 .cont{
     color: antiquewhite;
@@ -121,7 +132,7 @@ body{
     
 }
 .payment{
-    background: transparent;
+    background:linear-gradient(lightblue) ;
     border: rgb(165, 42, 128) solid;
     width: 40%;
     height: 35vh;
@@ -153,7 +164,7 @@ body{
     height: 8vh;
 }
 .phone{
-    width: 50%;
+    width: 900%;
 }
 .your{
     display: grid;
@@ -165,10 +176,13 @@ body{
 .foot{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    position: relative;
+    top: 10px;
+    /* height: 150%; */
 }
 .countries{
    
-    /* background-image: url(/image/world.webp); */
+    /* background-image: url(/image/bgpicture1_360.png); */
 /* width: 50%; */
 /* height: 100vh; */
 }
@@ -194,16 +208,15 @@ body{
     grid-template-columns: repeat(3,1fr);
 }
 .Invented1{
-    background-color: cadetblue;
-    border: solid 0.1px;
+    
+    border-radius: 50px;
     margin-top: 30%;
     width: 60%;
     height: 50vh;
-    border-radius: 20px;
+    
 }
 .Invented2{
-    background-color: hotpink;
-    border: solid 0.1px;
+    
     margin-bottom: 60%;
     width: 60%;
     height: 50vh;
@@ -261,6 +274,7 @@ body{
 
 .cont{
     color: antiquewhite;
+    margin: auto;
 }
 .wall{
     width: 20%;
@@ -379,7 +393,8 @@ body{
 .vault{
     background: transparent;
     border: rgb(165, 42, 128) solid;
-    
+    position: relative;
+    /* right: 25px; */
     width: 90%;
     height: 33vh;
     border-radius: 20px;
@@ -460,6 +475,8 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     max-width: 100%;
+    position: relative;
+    right: 30px;
     /* margin-right: 150%; */
 }
 .ready{
